@@ -1,8 +1,8 @@
 export default {
-  displayName: 'white-helmet-app',
-  preset: '../jest.preset.js',
+  displayName: 'white-helmet',
+  preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../coverage/white-helmet-app',
+  coverageDirectory: '../../coverage/apps/white-helmet-app',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

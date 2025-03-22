@@ -3,26 +3,26 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "apps/white-helmet/src",
+  "sourceRoot": "apps/white-helmet-app/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/white-helmet",
-        "index": "apps/white-helmet/src/index.html",
-        "browser": "apps/white-helmet/src/main.ts",
+        "outputPath": "dist/apps/white-helmet-app",
+        "index": "apps/white-helmet-app/src/index.html",
+        "browser": "apps/white-helmet-app/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "apps/white-helmet/tsconfig.app.json",
+        "tsConfig": "apps/white-helmet-app/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/white-helmet/public"
+            "input": "apps/white-helmet-app/public"
           }
         ],
-        "styles": ["apps/white-helmet/src/styles.scss"],
+        "styles": ["apps/white-helmet-app/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -74,7 +74,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "apps/white-helmet/jest.config.ts"
+        "jestConfig": "apps/white-helmet-app/jest.config.ts"
       }
     },
     "serve-static": {
@@ -82,7 +82,7 @@
       "options": {
         "buildTarget": "white-helmet:build",
         "port": 4200,
-        "staticFilePath": "dist/apps/white-helmet/browser",
+        "staticFilePath": "dist/apps/white-helmet-app/browser",
         "spa": true
       }
     }

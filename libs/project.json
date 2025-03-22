@@ -20,7 +20,7 @@
       "executor": "@storybook/angular:start-storybook",
       "options": {
         "port": 4400,
-        "configDir": "libs/.storybook",
+        "configDir": "libs/ui-library/.storybook",
         "browserTarget": "white-helmet-ui-library:build-storybook",
         "compodoc": false
       },
@@ -35,7 +35,7 @@
       "outputs": ["{options.outputDir}"],
       "options": {
         "outputDir": "dist/storybook/white-helmet-ui-library",
-        "configDir": "libs/.storybook",
+        "configDir": "libs/ui-library/.storybook",
         "browserTarget": "white-helmet-ui-library:build-storybook",
         "compodoc": false
       },

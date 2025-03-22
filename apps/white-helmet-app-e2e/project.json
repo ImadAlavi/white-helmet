@@ -2,7 +2,7 @@
   "name": "white-helmet-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "sourceRoot": "apps/white-helmet-e2e/src",
+  "sourceRoot": "apps/white-helmet-app-e2e/src",
   "implicitDependencies": ["white-helmet"],
   "// targets": "to see all targets run: nx show project white-helmet-e2e --web",
   "targets": {}

@@ -18,6 +18,6 @@ export const Heading: Story = {
   args: {},
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
-    expect(canvas.getByText(/white-helmet-ui-library works!/gi)).toBeTruthy();
+    expect(canvas.findByText(/white-helmet-ui-library works!/gi)).toBeTruthy();
   },
 };
