@@ -1,0 +1,56 @@
+node_modules/
+dist/
+out/
+bazel-out/
+tmp/
+.tmp/
+.idea/
+.vscode/
+.DS_Store
+nx-cache/
+coverage/
+storybook-static/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+pnpm-error.log*
+
+# Angular-specific
+.angular/cache/
+.angular/cli.json
+
+# NX Workspace
+workspace.json
+nx.json
+tsx-cache/
+
+# Jest
+jest.cache/
+jest-report.xml
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Playwright
+playwright-report/
+
+# IDE settings
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
